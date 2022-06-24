@@ -8,74 +8,74 @@
 
 ## 1.注册登录页
 
-![image-20220402115819353](web-image/image-20220402115819353.png)
-![Snipaste_2022-04-13_10-40-28.png](web-image/Snipaste_2022-04-13_10-40-28.png)
+![image-20220402115819353](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242252899.png)
+![Snipaste_2022-04-13_10-40-28.png](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242253656.png)
 
 ## 2.首页
 
-![image-20220402115846747](web-image/image-20220402115846747.png)
+![image-20220402115846747](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242253578.png)
 
 ## 3.电影页
 
-![image-20220402115857771](web-image/image-20220402115857771.png)
+![image-20220402115857771](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242253872.png)
 
 ## 4.影院页
 
-![image-20220402115907150](web-image/image-20220402115907150.png)
+![image-20220402115907150](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242253347.png)
 
 ## 5.个人中心页
 
-![image-20220402115933106](web-image/image-20220402115933106.png)
+![image-20220402115933106](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242254408.png)
 
 ## 6.电影详情页
 
-![image-20220402115946995](web-image/image-20220402115946995.png)
+![image-20220402115946995](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242254743.png)
 
 ## 7.影院选择页
 
-![image-20220402120003326](web-image/image-20220402120003326.png)
+![image-20220402120003326](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242254973.png)
 
 ## 8.影院详情页
 
-![image-20220402120013266](web-image/image-20220402120013266.png)
+![image-20220402120013266](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242254344.png)
 
 ## 9.座位选择页
 
-![image-20220402120020473](web-image/image-20220402120020473.png)
+![image-20220402120020473](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242254232.png)
 
 ## 10.确认订单页
 
-![image-20220402120029976](web-image/image-20220402120029976.png)
+![image-20220402120029976](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242254036.png)
 
 ## 11.订单支付页
 
-![image-20220402120036700](web-image/image-20220402120036700.png)
+![image-20220402120036700](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242255204.png)
 
 ## 12.个人信息页
 
-![image-20220402120050137](web-image/image-20220402120050137.png)
+![image-20220402120050137](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242256522.png)
 
 ## 13.我的订单页
 
-![image-20220402120056723](web-image/image-20220402120056723.png)
+![image-20220402120056723](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242256754.png)
 
 ## 14.想看的电影页
 
-![image-20220402120103454](web-image/image-20220402120103454.png)
-![image-20220402120103454](web-image/Snipaste_2022-04-13_10-55-45.png)
+![image-20220402120103454](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242256673.png)
+![image-20220402120103454](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242259793.png)
 
 ## 15.看过的电影页
 
-![image-20220402120147560](web-image/image-20220402120147560.png)
-![image-20220402120147560](web-image/Snipaste_2022-04-13_10-56-05.png)
+![image-20220402120147560](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242259655.png)
+![image-20220402120147560](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242259456.png)
 
 ## 16.电影搜索页
 
-![image-20220402121012958](web-image/image-20220402121012958.png)
+![image-20220402121012958](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242300047.png)
 
 ## 17.影院搜索页
 
-![image-20220402121022989](web-image/image-20220402121022989.png)
+![image-20220402121022989](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242300899.png)
 
 # 实现功能
 

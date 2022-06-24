@@ -22,15 +22,15 @@
 
 ## 部分演示
 
-> ![](./image/后台1.gif)
+> ![](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242244344.gif)
 >
-> <img src="./image/前台1.gif" style="zoom: 50%;" />
+> <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245731.gif" style="zoom: 50%;" />
 >
-> <img src="./image/前台2.gif" style="zoom:50%;" />
+> <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245341.gif" style="zoom:50%;" />
 >
-> <img src="./image/前台3.gif" style="zoom:50%;" />
+> <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245887.gif" style="zoom:50%;" />
 >
-> <img src="./image/前台4.gif" style="zoom:50%;" />
+> <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242246106.gif" style="zoom:50%;" />
 >
 > <img src="./image/前台5.gif" style="zoom:50%;" />
 
