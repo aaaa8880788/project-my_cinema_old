@@ -24,7 +24,7 @@
 
 > ![](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242244344.gif)
 >
-> <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245731.gif" style="zoom: 50%;" />
+> <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245731.gif" />
 >
 > <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245341.gif" style="zoom:50%;" />
 >
