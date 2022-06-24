@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1199321",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "5469632",
+      "name": "red-宠物狗",
+      "font_class": "red-chongwugou",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "6360153",
+      "name": "建设银行",
+      "font_class": "jiansheyinhang",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "8574949",
+      "name": "微信支付",
+      "font_class": "weixinzhifu",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "10049259",
+      "name": "nothing",
+      "font_class": "nothing",
+      "unicode": "e753",
+      "unicode_decimal": 59219
+    },
+    {
+      "icon_id": "10144368",
+      "name": "支付-_支付宝支付",
+      "font_class": "zhifu-_zhifubaozhifu",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "15981415",
+      "name": "云闪付",
+      "font_class": "yunshanfu",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "23920080",
+      "name": "座位",
+      "font_class": "zuowei1-copy-copy-copy",
+      "unicode": "e59d",
+      "unicode_decimal": 58781
+    }
+  ]
+}
