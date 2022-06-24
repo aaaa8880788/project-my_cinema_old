@@ -24,15 +24,14 @@
 
 > ![](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242244344.gif)
 >
-> <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245731.gif" />
+> ![](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245731.gif)
 >
-> <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245341.gif" style="zoom:50%;" />
+> ![](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245341.gif)
 >
-> <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245887.gif" style="zoom:50%;" />
+> ![](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245887.gif)
 >
-> <img src="https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242246106.gif" style="zoom:50%;" />
+> ![](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242246106.gif)
 >
-> <img src="./image/前台5.gif" style="zoom:50%;" />
 
 ## 功能介绍
 
