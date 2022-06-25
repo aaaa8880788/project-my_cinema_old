@@ -8,39 +8,39 @@
 
 ### 1.登录页
 
-![登录页](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242251780.png)
+![登录页](./images/image-20220402113700336.png)
 
 ### 2.用户管理页
 
-![image-20220402113747965](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242251458.png)
+![image-20220402113747965](./images/image-20220402113747965.png)
 
 ### 3.电影管理页
 
-![image-20220402113910846](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242251131.png)
+![image-20220402113910846](./images/image-20220402113910846.png)
 
 ### 4.影院管理页
 
-![image-20220402113915585](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242251129.png)
+![image-20220402113915585](./images/image-20220402113915585.png)
 
 ### 5.影厅管理页
 
-![image-20220402113921994](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242251393.png)
+![image-20220402113921994](./images/image-20220402113921994.png)
 
 ### 6.电影排片页
 
-![image-20220402113946945](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242251090.png)
+![image-20220402113946945](./images/image-20220402113946945.png)
 
 ### 7.宣传电影页
 
-![image-20220402113953881](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242251749.png)
+![image-20220402113953881](./images/image-20220402113953881.png)
 
 ### 8.评论管理页
 
-![image-20220402113959119](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242251313.png)
+![image-20220402113959119](./images/image-20220402113959119.png)
 
 ### 9.订单管理页
 
-![image-20220402114003666](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242251026.png)
+![image-20220402114003666](./images/image-20220402114003666.png)
 
 ## 实现功能
 
