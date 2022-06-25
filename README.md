@@ -22,15 +22,17 @@
 
 ## 部分演示
 
-> ![1](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242244344.gif)
+> ![后台1](./images/后台1.gif)
 >
-> ![2](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245731.gif)
+> ![前台1](./images/前台1.gif)
 >
-> ![3](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245341.gif)
+> ![前台2](./images/前台2.gif)
 >
-> ![4](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242245887.gif)
+> ![前台3](./images/前台3.gif)
 >
-> ![5](https://fastly.jsdelivr.net/gh/aaaa8880788/duck-img//project/my_cinema_old/202206242246106.gif)
+> ![前台4](./images/前台4.gif)
+>
+> ![前台5](./images/前台5.gif)
 >
 
 ## 功能介绍
