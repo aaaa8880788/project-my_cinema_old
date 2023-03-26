@@ -155,36 +155,24 @@
           </el-form-item>
           <el-form-item label="放映时间" prop="outTime">
             <el-col :span="16">
-              <el-select
+              <el-time-picker
+                style="width:100%"
                 v-model="planInfo.outTime"
-                clearable
-                placeholder="请选择放映时间"
-                style="width: 100%"
-              >
-                <el-option
-                  v-for="item in outTimeOptions"
-                  :key="item.value"
-                  :value="item.value"
-                  :label="item.label"
-                ></el-option>
-              </el-select>
+                format='HH:mm'
+                value-format="HH:mm"
+                placeholder="选择放映时间">
+              </el-time-picker>
             </el-col>
           </el-form-item>
           <el-form-item label="散场时间" prop="outTime">
             <el-col :span="16">
-              <el-select
+              <el-time-picker
+                style="width:100%"
                 v-model="planInfo.leaveTime"
-                clearable
-                placeholder="请选择放映时间"
-                style="width: 100%"
-              >
-                <el-option
-                  v-for="item in leaveTimeOptions"
-                  :key="item.value"
-                  :value="item.value"
-                  :label="item.label"
-                ></el-option>
-              </el-select>
+                format='HH:mm'
+                value-format="HH:mm"
+                placeholder="选择放映时间">
+              </el-time-picker>
             </el-col>
           </el-form-item>
           <el-form-item label="上映日期" prop="inDate">
@@ -192,7 +180,7 @@
               <el-date-picker
                 v-model="planInfo.inDate"
                 readonly
-                type="date"
+                type="datetime"
                 value-format="yyyy-MM-dd"
                 style="width: 100%"
               >

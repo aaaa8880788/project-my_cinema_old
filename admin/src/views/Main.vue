@@ -12,7 +12,16 @@
           <span>小白电影</span>
         </div>
         <!-- 右盒子 -->
-        <div class="right"></div>
+        <div class="right">
+          <el-dropdown @command="btnClickHandle">
+            <span class="el-dropdown-link">
+              超级管理员<i class="el-icon-arrow-down el-icon--right"></i>
+            </span>
+            <el-dropdown-menu slot="dropdown">
+              <el-dropdown-item command="退出登录">退出登录</el-dropdown-item>
+            </el-dropdown-menu>
+          </el-dropdown>
+        </div>
       </div>
     </el-row>
     <el-row class="main">
@@ -68,6 +77,13 @@ export default {
     return {};
   },
   methods: {
+    btnClickHandle(type) {
+      switch (type) {
+        case '退出登录':
+          this.logout()
+          break;
+      }
+    },
     // 退出登录
     logout() {
       this.$message({
@@ -148,4 +164,8 @@ export default {
     }
   }
 }
+.el-dropdown-link {
+    cursor: pointer;
+    color: #409EFF;
+  }
 </style>
