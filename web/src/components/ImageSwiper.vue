@@ -2,7 +2,7 @@
   <swiper ref="mySwiper" class="swiper" :options="options" v-if="Image.length">
     <swiper-slide v-for="(item, index) in Image" :key="index">
       <router-link :to="`/movieDetail/${item.movieId}`">
-        <img :src="item.adImage" />
+        <img class="image" :src="item.adImage" />
       </router-link>
     </swiper-slide>
     <div class="swiper-pagination" slot="pagination"></div>
@@ -30,6 +30,9 @@ export default {
     };
   },
   props: ["Image"],
+  mounted() {
+    console.log('----',this.$refs.mySwiper);
+  },
 };
 </script>
 
@@ -50,5 +53,9 @@ export default {
 }
 .swiper-pagination-bullet-active {
   background-color: #fff;
+}
+.image{
+  width: 100%;
+  height: 170px;
 }
 </style>
