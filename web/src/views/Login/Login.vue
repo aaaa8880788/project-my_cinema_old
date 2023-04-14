@@ -9,7 +9,7 @@
       <div class="login-header">
         <span class="iconfont icon-red-chongwugou"></span>
         <p class="title">仲恺影视</p>
-        <i class="eng-title">dog Movie</i>
+        <i class="eng-title">Zk Movie</i>
       </div>
       <!-- 登录内容部分 -->
       <div class="login-content">
