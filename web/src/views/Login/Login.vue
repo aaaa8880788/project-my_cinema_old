@@ -8,7 +8,7 @@
       <!-- 登录头部部分 -->
       <div class="login-header">
         <span class="iconfont icon-red-chongwugou"></span>
-        <p class="title">神犬影视</p>
+        <p class="title">仲恺影视</p>
         <i class="eng-title">dog Movie</i>
       </div>
       <!-- 登录内容部分 -->

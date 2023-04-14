@@ -9,7 +9,7 @@
             class="iconfont icon-TV"
             style="font-size: 48px; margin-right: 5px"
           ></i>
-          <span>小白电影</span>
+          <span>仲恺电影</span>
         </div>
         <!-- 右盒子 -->
         <div class="right">
