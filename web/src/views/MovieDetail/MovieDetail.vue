@@ -130,7 +130,7 @@
             <div class="user-rate">
               <van-rate
                 readonly
-                v-model="item.userScore"
+                v-model="item.userScoreHalf"
                 rateStar
                 color="#f7ba2a"
                 void-color="#eff2f7"

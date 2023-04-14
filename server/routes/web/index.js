@@ -208,6 +208,12 @@ module.exports = (app) => {
     model.comments = model.comments.filter((item) => {
       return item.isPass == 1;
     });
+    // 用户数据添加一个电影的评分/2
+    model.comments.forEach(item => {
+      if(['number'].includes(typeof item.userScore)){
+        item.userScoreHalf = item.userScore / 2
+      }
+    })
     // 获取电影的评分/2
     const allUserScore = model.comments.map((item2) => {
       return item2.userScore;
