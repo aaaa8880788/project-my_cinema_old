@@ -8,45 +8,50 @@
       :key="item._id"
       @click="cinemaClick(item._id)"
     >
-      <!-- 左边盒子 -->
-      <div class="cinema-item-left">
-        <!-- 影院名 -->
-        <div class="cinema-name">
-          <h3>{{ item.name }}</h3>
+      <div class="header">
+        <!-- 左边盒子 -->
+        <div class="cinema-item-left">
+          <!-- 影院名 -->
+          <div class="cinema-name">
+            <h3>{{ item.name }}</h3>
+          </div>
+          <!-- 影院地址 -->
+          <div class="cinema-address">
+            <p class="ellipsis">
+              <van-icon name="location-o" />{{ item.address }}
+            </p>
+          </div>
+          <!-- 联系电话 -->
+          <div class="cinema-phone">
+            <p><van-icon name="phone-o" />联系电话：{{ item.phone }}</p>
+          </div>
+        
         </div>
-        <!-- 影院地址 -->
-        <div class="cinema-address">
-          <p class="ellipsis">
-            <van-icon name="location-o" />{{ item.address }}
-          </p>
+      <!-- 右边盒子 -->
+        <div class="cinema-item-right">
+          <span>{{ item.demand }}</span>
+          <span>元</span>
+          <span>起</span>
         </div>
-        <!-- 联系电话 -->
-        <div class="cinema-phone">
-          <p><van-icon name="phone-o" />联系电话：{{ item.phone }}</p>
-        </div>
-        <!-- 影院描述 -->
+      </div>
+      <div class="footer">
+         <!-- 影院描述 -->
         <div class="cinema-desc">
           <span
-            class="desc-user ellipsis"
+            class="desc-user"
             v-for="item1 in item.desc2"
             :key="item1"
           >
             {{ item1 }}
           </span>
           <span
-            class="desc-cinema ellipsis"
+            class="desc-cinema"
             v-for="item2 in item.desc1"
             :key="item2"
           >
             {{ item2 }}
           </span>
         </div>
-      </div>
-      <!-- 右边盒子 -->
-      <div class="cinema-item-right">
-        <span>{{ item.demand }}</span>
-        <span>元</span>
-        <span>起</span>
       </div>
     </div>
   </div>
@@ -76,10 +81,11 @@ export default {
     margin-bottom: 1.5385rem;
   }
   .cinema-item {
-    display: flex;
     padding-bottom: 1.5385rem;
     border-bottom: 1px solid rgb(209, 209, 209);
-    // 左边盒子
+    .header {
+      display: flex;
+      // 左边盒子
     .cinema-item-left {
       text-align: left;
       width: 70%;
@@ -97,6 +103,24 @@ export default {
         color: rgb(130, 130, 130);
         padding-bottom: 0.7692rem;
       }
+    }
+    // 右边盒子
+    .cinema-item-right {
+      text-align: right;
+      width: 30%;
+      span:nth-child(1) {
+        color: red;
+        font-size: 1.5385rem;
+      }
+      span:nth-child(2) {
+        color: red;
+      }
+      span:nth-child(3) {
+        color: rgb(130, 130, 130);
+      }
+    }
+    }
+    .footer {
       // 影院描述
       .cinema-desc {
         span {
@@ -113,21 +137,6 @@ export default {
           color: rgb(255, 132, 0);
           border: 1px solid rgb(255, 132, 0);
         }
-      }
-    }
-    // 右边盒子
-    .cinema-item-right {
-      text-align: right;
-      width: 30%;
-      span:nth-child(1) {
-        color: red;
-        font-size: 1.5385rem;
-      }
-      span:nth-child(2) {
-        color: red;
-      }
-      span:nth-child(3) {
-        color: rgb(130, 130, 130);
       }
     }
   }
