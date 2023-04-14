@@ -131,6 +131,7 @@
               <van-rate
                 readonly
                 v-model="item.userScoreHalf"
+                allow-half
                 rateStar
                 color="#f7ba2a"
                 void-color="#eff2f7"
