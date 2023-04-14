@@ -37,20 +37,20 @@
       <div class="footer">
          <!-- 影院描述 -->
         <div class="cinema-desc">
-          <span
+          <div
             class="desc-user"
             v-for="item1 in item.desc2"
             :key="item1"
           >
             {{ item1 }}
-          </span>
-          <span
+          </div>
+          <div
             class="desc-cinema"
             v-for="item2 in item.desc1"
             :key="item2"
           >
             {{ item2 }}
-          </span>
+          </div>
         </div>
       </div>
     </div>
@@ -123,19 +123,25 @@ export default {
     .footer {
       // 影院描述
       .cinema-desc {
-        span {
-          border-radius: 0.2308rem;
-          margin-right: 0.3846rem;
-          padding: 0.0769rem;
-        }
+        display: flex;
+        overflow: auto;
         .desc-user {
           color: rgb(109, 255, 5);
           border: 1px solid rgb(109, 255, 5);
+          border-radius: 0.2308rem;
+          margin: 5px;
+          padding: 5px;
+          box-sizing: border-box;
+          flex-shrink: 0;
         }
         .desc-cinema {
-          // display: inline-block;
           color: rgb(255, 132, 0);
           border: 1px solid rgb(255, 132, 0);
+          border-radius: 0.2308rem;
+          margin: 5px;
+          padding: 5px;
+          box-sizing: border-box;
+          flex-shrink: 0;
         }
       }
     }
