@@ -5,8 +5,7 @@
       <!-- 左边坐标区域 -->
       <div class="left">
         <div><i class="iconfont icon-red-chongwugou"></i></div>
-        <div>广州</div>
-        <div><van-icon name="arrow-down" color="black" size="1rem" /></div>
+        <div>仲恺</div>
       </div>
       <!-- 中间切换栏区域 -->
       <div class="center">

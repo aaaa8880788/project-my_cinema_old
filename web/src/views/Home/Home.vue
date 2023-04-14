@@ -5,8 +5,7 @@
       <!-- 左边坐标区域 -->
       <div class="left">
         <div><i class="iconfont icon-red-chongwugou"></i></div>
-        <div><span>广州</span></div>
-        <div><van-icon name="arrow-down" color="black" size="1rem" /></div>
+        <div><span>仲恺</span></div>
       </div>
       <!-- 右边搜索区域 -->
       <div class="right" @click="movieSearch">
