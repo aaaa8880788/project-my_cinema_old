@@ -33,12 +33,14 @@
                 class="iconfont icon-zuowei1-copy-copy-copy"
                 :class="{
                   selected: itemJ == 1,
-                  forbidSelected: itemJ == 2,
+                  forbidSelected: itemJ == 2
                 }"
                 @click.stop.prevent="seatSelected(indexI, indexJ)"
               ></span>
             </div>
           </div>
+          <!-- 推荐虚线 -->
+          <div class="position-box"></div>
         </div>
       </div>
     </div>
@@ -67,6 +69,10 @@
           ></span>
           <div>已选</div>
         </div>
+        <div class="select-tip-item">
+          <div class="recommand-area"></div>
+          <div>最佳观影区</div>
+        </div>
       </div>
       <!-- 确认信息部分 -->
       <div class="confirm-content">
@@ -86,8 +92,9 @@
             }}</span>
           </div>
         </div>
+        
         <!-- 选座信息部分 -->
-        <div class="seat-info-list">
+        <div class="seat-info-list" v-if="model.seatInfo.length">
           <div
             class="seat-info-item"
             v-for="(item, index) in model.seatInfo"
@@ -106,6 +113,15 @@
               <van-icon name="cross" />
             </div>
           </div>
+        </div>
+        <!-- 自动推荐部分 -->
+        <div v-else class="recommand-seat">
+          <span class="recommand-title">推荐座位</span>
+          <span class="recommand-count" @click="recommandBtnClick(1)">1人</span>
+          <span class="recommand-count" @click="recommandBtnClick(2)">2人</span>
+          <span class="recommand-count" @click="recommandBtnClick(3)">3人</span>
+          <span class="recommand-count" @click="recommandBtnClick(4)">4人</span>
+          <!-- <span class="recommand-count" @click="recommandBtnClick(5)">5人</span> -->
         </div>
       </div>
       <!-- 确认选座按钮 -->
@@ -155,6 +171,135 @@ export default {
     TopBar,
   },
   methods: {
+    // 推荐座位点击触发
+    recommandBtnClick(type) {
+      const recommandRow = [2,3]
+      const recommandColumn = [3,4,5,6]
+      // 可选推荐座位
+      let usefulSeat = []
+      recommandRow.forEach(row => {
+        recommandColumn.forEach(column => {
+          // 座位可选时
+          if(this.seatIJ[row][column] != 2){
+            usefulSeat.push([row,column])
+          }
+        })
+      })
+      const usefulSeatLength = usefulSeat.length
+      if(!usefulSeatLength){
+        return this.$dialog.alert({
+          title: "提示",
+          message: "暂无推荐座位，请自行选择~",
+          theme: "round-button",
+        });
+      }
+      switch (type) {
+        case 1:
+          {
+            // 推荐1人时
+            if(usefulSeatLength) {
+              const [row,column] = usefulSeat[0]
+              this.seatIJ[row][column] = 1;
+              this.model.seatInfo.push([row, column]);
+              this.model.ticketNum += 1;
+              this.hackReset = false;
+              this.$nextTick(() => {
+                this.hackReset = true;
+              });
+            }
+          }
+          break;
+        case 2:
+          {
+            // 推荐2人时
+            if(usefulSeatLength >= 2) {
+              for(let i = 0; i < 2; i++){
+                const [row,column] = usefulSeat[i]
+                this.seatIJ[row][column] = 1;
+                this.model.seatInfo.push([row, column]);
+                this.model.ticketNum += 1;
+                this.hackReset = false;
+                this.$nextTick(() => {
+                  this.hackReset = true;
+                });
+              }
+            }else{
+              return this.$dialog.alert({
+                title: "提示",
+                message: "暂无推荐座位，请自行选择~",
+                theme: "round-button",
+              });
+            }
+          }
+          break;
+        case 3: {
+            // 推荐3人时
+            if(usefulSeatLength >= 3) {
+              for(let i = 0; i < 3; i++){
+                const [row,column] = usefulSeat[i]
+                this.seatIJ[row][column] = 1;
+                this.model.seatInfo.push([row, column]);
+                this.model.ticketNum += 1;
+                this.hackReset = false;
+                this.$nextTick(() => {
+                  this.hackReset = true;
+                });
+              }
+            }else{
+              return this.$dialog.alert({
+                title: "提示",
+                message: "暂无推荐座位，请自行选择~",
+                theme: "round-button",
+              });
+            }
+        }
+          break;
+        case 4: {
+          // 推荐4人时
+            if(usefulSeatLength >= 4) {
+              for(let i = 0; i < 4; i++){
+                const [row,column] = usefulSeat[i]
+                this.seatIJ[row][column] = 1;
+                this.model.seatInfo.push([row, column]);
+                this.model.ticketNum += 1;
+                this.hackReset = false;
+                this.$nextTick(() => {
+                  this.hackReset = true;
+                });
+              }
+            }else{
+              return this.$dialog.alert({
+                title: "提示",
+                message: "暂无推荐座位，请自行选择~",
+                theme: "round-button",
+              });
+            }
+            break;
+        }
+        case 5: {
+          // 推荐5人时
+            if(usefulSeatLength >= 5) {
+              for(let i = 0; i < 5; i++){
+                const [row,column] = usefulSeat[i]
+                this.seatIJ[row][column] = 1;
+                this.model.seatInfo.push([row, column]);
+                this.model.ticketNum += 1;
+                this.hackReset = false;
+                this.$nextTick(() => {
+                  this.hackReset = true;
+                });
+              }
+            }else{
+              return this.$dialog.alert({
+                title: "提示",
+                message: "暂无推荐座位，请自行选择~",
+                theme: "round-button",
+              });
+            }
+          break;
+        }
+      }
+    },
     // 顶部返回按钮点击触发
     backIconClick() {
       this.$router.back();
@@ -206,7 +351,6 @@ export default {
       this.$nextTick(() => {
         this.hackReset = true;
       });
-      // console.log(this.model.seatInfo);
     },
     // 点击确认选座按钮触发
     async confirmBtnClick() {
@@ -299,6 +443,7 @@ export default {
       }
     }
     .right {
+      position: relative;
       padding: 0.7692rem 0;
       width: 90%;
       display: flex;
@@ -308,12 +453,24 @@ export default {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        position: relative;
+        z-index: 2;
         .column {
           span {
             font-size: 1.8462rem;
             color: rgb(255, 255, 255);
           }
         }
+      }
+      .position-box{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        border: 1px #e12e2e dashed;
+        border-radius: 10px;
       }
     }
   }
@@ -341,6 +498,13 @@ export default {
         font-size: 1.3846rem;
         margin-right: 0.3846rem;
       }
+      .recommand-area {
+        width: 18px;
+        height: 18px;
+        border: 1px #e12e2e dashed;
+        border-radius: 5px;
+        margin-right: 5px;
+      }
     }
   }
   // 确认信息部分
@@ -363,6 +527,22 @@ export default {
         span {
           margin-right: 0.7692rem;
         }
+      }
+    }
+    // 推荐座位部分
+    .recommand-seat{
+      height: 30px;
+      line-height: 30px;
+      .recommand-title {
+        margin-right: 5px;
+      }
+      .recommand-count {
+        margin: 0 5px;
+        background: #f1f1f1;
+        box-sizing: border-box;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
       }
     }
     // 选座信息部分

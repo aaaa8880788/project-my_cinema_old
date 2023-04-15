@@ -39,8 +39,8 @@
         <div class="cinema-desc">
           <div
             class="desc-user"
-            v-for="item1 in item.desc2"
-            :key="item1"
+            v-for="item1,index1 in item.desc2"
+            :key="index1"
           >
             {{ item1 }}
           </div>
